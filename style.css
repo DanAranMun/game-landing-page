@@ -56,15 +56,15 @@ nav a:hover {
 
 .feature-box {
 	display: flex;
-    width: 300px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #9a9292;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(50, 50, 50, 0.2);
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #9a9292;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(50, 50, 50, 0.2);
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .feature-box img {
@@ -74,4 +74,18 @@ nav a:hover {
 footer {
 	color: #fff;
 
+}
+
+.user-registry {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	height: 300px;
+	background-color: #fff;
+}
+
+.user-registry form div {
+	margin: 20px;
 }
